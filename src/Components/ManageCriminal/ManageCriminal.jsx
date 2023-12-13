@@ -7,7 +7,7 @@ const ManageCriminal = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/criminal')
+        fetch('https://personal123-blond.vercel.app/criminal')
             .then(res => res.json())
             .then(data => setUsers(data))
             .catch(error => console.error('Error fetching data:', error));
@@ -15,7 +15,7 @@ const ManageCriminal = () => {
 
     const refetch = () => {
         // Refetch data after deletion if needed
-        fetch('http://localhost:5000/criminal')
+        fetch('https://personal123-blond.vercel.app/criminal')
             .then(res => res.json())
             .then(data => setUsers(data))
             .catch(error => console.error('Error fetching data:', error));
@@ -32,7 +32,7 @@ const ManageCriminal = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                axios.delete(`http://localhost:5000/criminal/${id}`)
+                axios.delete(`https://personal123-blond.vercel.app/criminal/${id}`)
                     .then(res => {
                         if (res.data.deletedCount > 0) {
                             console.log(res.data.deletedCount);

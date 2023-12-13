@@ -7,6 +7,7 @@ import Login from '../../Pageses/Login/Login';
 import Register from '../../Pageses/Register/Register';
 import CaseFile from '../../Criminal/CaseFile';
 import ManageCriminal from '../../ManageCriminal/ManageCriminal';
+import PrivateRoute from '../../PrivateRoute.jsx/PrivateRoute';
 
 
 
@@ -31,11 +32,11 @@ import ManageCriminal from '../../ManageCriminal/ManageCriminal';
             },
             {
              path:'/case',
-             element:<CaseFile></CaseFile>
+             element:<PrivateRoute><CaseFile></CaseFile></PrivateRoute>
             },
             {
              path:'/list',
-             element:<ManageCriminal></ManageCriminal>
+             element:<PrivateRoute><ManageCriminal></ManageCriminal></PrivateRoute>
             },
         
           ]

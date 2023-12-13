@@ -34,7 +34,7 @@ const CaseFile = () => {
             };
 
             console.log(caseList);
-            axios.post('http://localhost:5000/criminal', caseList)
+            axios.post('https://personal123-blond.vercel.app/criminal', caseList)
             .then(response => {
                 
                 console.log('Data sent successfully:', response.data);

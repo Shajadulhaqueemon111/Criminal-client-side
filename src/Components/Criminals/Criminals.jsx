@@ -5,7 +5,7 @@ const Criminals = () => {
     const [criminals, setCriminals] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/member')
+        fetch('https://personal123-blond.vercel.app/member')
             .then(res => {
                 if (!res.ok) {
                     throw new Error(`HTTP error! Status: ${res.status}`);
