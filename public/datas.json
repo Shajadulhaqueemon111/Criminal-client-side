@@ -1,0 +1,39 @@
+[
+    {
+      "criminalName": "John Doe",
+      "criminalId": "CR123456",
+      "image": "https://i.ibb.co/LzPb1t7/download-38.jpg",
+      "location": "City Jashore"
+    },
+    {
+      "criminalName": "Jane Smith",
+      "criminalId": "CR789012",
+      "image": "https://i.ibb.co/HN5z8kJ/download-39.jpg",
+      "location": "City Khulna"
+    },
+    {
+      "criminalName": "Robert Johnson",
+      "criminalId": "CR345678",
+      "image": "https://i.ibb.co/WzKHxK1/download-40.jpg",
+      "location": "City Barisal"
+    },
+    {
+      "criminalName": "Emily Davis",
+      "criminalId": "CR901234",
+      "image": "https://i.ibb.co/5FjqPWr/images-51.jpg",
+      "location": "City Rajsahi"
+    },
+    {
+      "criminalName": "Michael Wilson",
+      "criminalId": "CR567890",
+      "image": "https://i.ibb.co/gv11K63/images-52.jpg",
+      "location": "City Borisal"
+    },
+    {
+      "criminalName": "Samantha Brown",
+      "criminalId": "CR234567",
+      "image": "https://i.ibb.co/vJQ01Z8/images-53.jpg",
+      "location": "City Silat"
+    }
+  ]
+  
